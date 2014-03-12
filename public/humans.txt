@@ -1,0 +1,8 @@
+# TEAM
+
+    Silas Sao -- Developer -- @silassao
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
