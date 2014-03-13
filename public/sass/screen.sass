@@ -88,11 +88,15 @@ body
     width: 320px
     text-align: center
     .icon
-      background: url("../images/layout/icon-highlights.png")
+      background: url("../images/layout/icon-highlights.png") no-repeat 0 0
       display: block
       margin: 0 auto
       width: 80px
       height: 80px
+      &.latest-tech
+        background-position: 0 -80px
+      &.unmatch-safety
+        background-position: 0 -160px
 
     h3
       color: #000000
@@ -179,6 +183,7 @@ body
     .facebook
       background: url("../images/layout/icon-fb.png") no-repeat center center
       display: block
+      margin-top: 10px
       width: 31px
       height: 30px
       @include hide-text
